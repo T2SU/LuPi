@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{f96717a5-38ba-4270-89bc-4ad5d75db11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Core">
+      <UniqueIdentifier>{d39f3ae6-86f0-425d-bb57-430378295120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Field">
+      <UniqueIdentifier>{86832bb6-d855-4cea-8f5a-32a2337c055f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Field">
+      <UniqueIdentifier>{24e83083-1cdb-499e-bac3-92106b44c0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Player">
+      <UniqueIdentifier>{efa7399c-f4fd-4fa8-9a09-2d8f794bc60e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Player">
+      <UniqueIdentifier>{2fa03294-19f0-4609-867a-c02bb07f3d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Field\InheritedField">
+      <UniqueIdentifier>{fdef4969-bf31-48f5-891d-afabf386871c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Data">
+      <UniqueIdentifier>{22486325-aa27-4eb6-a4ba-003deaee322f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Data">
+      <UniqueIdentifier>{4e57723c-15a4-473f-82b4-9f15a7449a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Field\InheritedField">
+      <UniqueIdentifier>{af42bf67-9222-46a0-977d-cb2c53d7d02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Field\Object">
+      <UniqueIdentifier>{c2630f5d-2e5a-4e1d-8d1f-aa3e0584b277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Field\Object">
+      <UniqueIdentifier>{0946551b-299d-4b44-9c98-ed4caba9f30e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI">
+      <UniqueIdentifier>{4e769ead-2fa4-4da6-8463-fd1c23489992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\UI">
+      <UniqueIdentifier>{a057c52c-26f5-4549-9b07-2e3f12bdbf7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Sound">
+      <UniqueIdentifier>{73d7e1ed-80c9-498f-95c8-7720ee641d34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="LPApp.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="LPDataManager.cpp">
+      <Filter>소스 파일\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LPLogger.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>소스 파일\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureSet.cpp">
+      <Filter>소스 파일\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamReader.cpp">
+      <Filter>소스 파일\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldTexture.cpp">
+      <Filter>소스 파일\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldManager.cpp">
+      <Filter>소스 파일\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuUI.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스 파일\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSet.cpp">
+      <Filter>소스 파일\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLibTool.cpp">
+      <Filter>소스 파일\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuField.cpp">
+      <Filter>소스 파일\Field\InheritedField</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalField.cpp">
+      <Filter>소스 파일\Field\InheritedField</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldObject.cpp">
+      <Filter>소스 파일\Field\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LPApp.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>헤더 파일\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="LPDataManager.h">
+      <Filter>헤더 파일\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LPLogger.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureSet.h">
+      <Filter>헤더 파일\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>헤더 파일\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamReader.h">
+      <Filter>헤더 파일\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldTexture.h">
+      <Filter>헤더 파일\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMessageProcessor.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldManager.h">
+      <Filter>헤더 파일\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerUI.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuUI.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSet.h">
+      <Filter>헤더 파일\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>헤더 파일\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLibTool.h">
+      <Filter>헤더 파일\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuField.h">
+      <Filter>헤더 파일\Field\InheritedField</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalField.h">
+      <Filter>헤더 파일\Field\InheritedField</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldObject.h">
+      <Filter>헤더 파일\Field\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

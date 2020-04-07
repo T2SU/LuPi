@@ -1,0 +1,12 @@
+- FMOD Studio Low Level API
+  fmod Non Commercial license
+
+- ZLib
+  zlib license
+
+- Heroine Graphic
+  CC BY 3.0
+  Author : Bleed
+
+- Music (TAM Music Factory)
+  http://www.tam-music.com/
